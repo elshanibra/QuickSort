@@ -11,7 +11,6 @@ public class Main {
 
         int size = data.length;
 
-        // call quicksort() on array data
         QuickSort.quicksort(data, 0, size - 1);
 
         System.out.println("Sorted Array in Ascending Order ");
